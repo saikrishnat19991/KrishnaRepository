@@ -1,0 +1,2 @@
+Struct insertion syntax:
+insert into table empaddress select eno,named_struct('dno',tb.dno,'city',tb.city,'pin',tb.pin) as address,ename,salary from empaddresstest tb;
